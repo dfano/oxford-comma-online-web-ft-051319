@@ -4,7 +4,7 @@ def oxford_comma(arr)
 	    arr.join
 
 	elsif arr.length == 2
-	    arr.join(" ")
+	    arr.join(" and ")
 
   	elsif arr.count >= 3
   		arr.each_with_index.map do |item, index|
