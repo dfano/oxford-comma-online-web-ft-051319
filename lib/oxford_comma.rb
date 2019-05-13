@@ -1,13 +1,13 @@
 def oxford_comma(arr)
-  arr.join
-end
 
-def oxford_comma(arr)
+  if arr.count == 1
+    arr.join
+  end
+
+  if arr.count == 2
     arr.join(" and ")
-end
-
-
-def oxford_comma(arr)
+  end
+  
   arr.each_with_index.map do |item, index|
 		if index < arr.count-2
 			item << ", "
