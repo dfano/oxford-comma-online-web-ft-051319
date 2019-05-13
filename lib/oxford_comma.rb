@@ -15,7 +15,5 @@ def oxford_comma(arr)
 			item << ", and "
 		end
 	end
-
 	arr.join
-
 end
