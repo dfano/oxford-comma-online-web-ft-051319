@@ -7,7 +7,7 @@ def oxford_comma(arr)
 		if index < arr.count-2
 			item << ", "
 		elsif index == arr.count-2
-			item << " and "
+			item << ", and "
 		end
 	end
 	arr.join
