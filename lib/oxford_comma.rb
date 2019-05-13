@@ -1,11 +1,9 @@
 def oxford_comma(arr)
   arr.join
-
-  arr.join(" and ")
 end
 
 def oxford_comma(arr)
-
+    arr.join(" and ")
 end
 
 
